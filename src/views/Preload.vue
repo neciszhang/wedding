@@ -22,7 +22,9 @@ export default {
 			'imgs/flower.png',
 			'imgs/pic.png',
 			'imgs/plant.png',
-			'imgs/wine.png'
+			'imgs/wine.png',
+			'imgs/p2-1.png',
+			'imgs/p2-pic.jpg'
 	    ];
 	    var imagesCount = imageNames.length;
 	    var resourceCount = imagesCount;
