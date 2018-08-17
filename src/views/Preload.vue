@@ -37,10 +37,8 @@ export default {
 				var progress = Math.ceil(100 * (++loadedResourceCount / resourceCount));
 				self.loadnum=progress;
 	            if (progress>=100) {
-	                console.log("已加载完毕全部资源");
-					setTimeout(function () {
-	                    self.$router.replace('home');
-	                }, 1000);
+									console.log("已加载完毕全部资源");
+									self.$router.replace('home');
 	            }
 	        };
 	    }
